@@ -1,0 +1,19 @@
+/* Reset & Base */
+* {margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{background:#f4f4f4;}
+header{background:#2874f0;color:white;padding:15px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;}
+header .logo{font-size:22px;font-weight:bold;}
+header input{padding:5px;width:50%;border-radius:4px;border:none;}
+header .cart{background:red;padding:5px 10px;border-radius:20px;cursor:pointer;}
+
+.container{padding:15px;}
+.filters{margin-bottom:15px;background:white;padding:10px;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+.filters label{margin-right:10px;font-weight:bold;}
+
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:15px;}
+.product{background:white;padding:10px;border-radius:10px;text-align:center;box-shadow:0 2px 5px rgba(0,0,0,0.2);}
+.product img{width:100%;border-radius:10px;}
+button{background:#ff5722;color:white;border:none;padding:8px;margin-top:8px;cursor:pointer;border-radius:5px;width:100%;}
+button:hover{background:#e64a19;}
+
+footer{background:#2874f0;color:white;text-align:center;padding:15px;margin-top:20px;}
